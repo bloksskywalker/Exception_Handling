@@ -115,11 +115,11 @@ public class Main {
         }
 
         try {
-            a5 = op1 % op2;
+            a3 = op1 % op2;
             if (Double.isFinite(a3)) {
-                System.out.println("The modulus answer is: " + a5);
+                System.out.println("The modulus answer is: " + a3);
             } else {
-                System.out.println("Your number resulted in something too big or too small. The modulo answer is: " + a5);
+                System.out.println("Your number resulted in something too big or too small. The modulo answer is: " + a3);
                 errorCount++;
             }
         } catch (ArithmeticException e) {
